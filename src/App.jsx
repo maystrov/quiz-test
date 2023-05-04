@@ -39,7 +39,7 @@ function Game({ step, onVariantClick }) {
   const progress = Math.floor((step / questions.length) * 100);
   return (
     <>
-      <h1 style={{ marginBottom: 30, textAlign: "center" }}>Quizz game</h1>
+      <h1 style={{ marginBottom: 30, textAlign: "center" }}>Test Title</h1>
       <div className="progress">
         <div style={{ width: `${progress}%` }} className="progress__inner"></div>
       </div>
